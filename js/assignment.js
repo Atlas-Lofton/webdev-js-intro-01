@@ -14,7 +14,7 @@ const book = "theAtlasSix" //The name is a coincidence.//
 
 // Declare a mutable variable named "activity" and assign
 // an activity to it.
-let activity = "workingOut"
+let activity = "writing"
 
 
 function updateBookSentence() {
@@ -33,7 +33,7 @@ function updateActivitySentence() {
 function render() {
     // Finish writing this function
     updateBookSentence();
-
+    updateActivitySentence();
 }
 
 submissionBtn.addEventListener("click", function () {
