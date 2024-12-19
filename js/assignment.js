@@ -9,11 +9,12 @@ const submissionBtn = document.getElementById("submission-btn")
 
 // Declare a constant variable named "book" and assign
 // the name of your favorite book to that variable.
+const book = theAtlasSix //The name is a coincidence.//
 
 
 // Declare a mutable variable named "activity" and assign
 // an activity to it.
-
+let activity = workingOut
 
 
 function updateBookSentence() {
@@ -25,8 +26,9 @@ function updateBookSentence() {
 function updateActivitySentence() {
     // Update this function 
     // (hint: it will be similiar to the previous function)
-
+    activityAnswerEl.innerText = activity
 }
+   
 
 function render() {
     // Finish writing this function
