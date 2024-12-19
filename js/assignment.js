@@ -1,5 +1,5 @@
 "use strict";
-
+/*
 // Declaring constant variables to store references to the elements
 // that will be updated by your code.
 const bookAnswerEl = document.getElementById("book-answer")
@@ -41,3 +41,4 @@ submissionBtn.addEventListener("click", function () {
     // when the button is clicked
     render();
 })
+    */
